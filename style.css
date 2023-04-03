@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;    
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+form{
+    margin-left: 10px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+}
+
+button{
+    padding: 9px 16px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3e8e41; 
+}
+
+ul li{
+ margin: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+  }
